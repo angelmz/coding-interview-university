@@ -94,52 +94,12 @@ It's a long plan. It may take you months. If you are familiar with a lot of this
 
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
-
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
-
-    Fork a branch and follow the commands below
-
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button
-
-    Clone to your local repo
-
-`git clone git@github.com:<your_github_username>/coding-interview-university.git`
-
-`git checkout -b progress`
-
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
-
-`git fetch --all`
-
-    Mark all boxes with X after you completed your changes
-
-`git add .`
-
-`git commit -m "Marked x"`
-
-`git rebase jwasham/master`
-
-`git push --set-upstream origin progress`
-
-`git push --force`
-
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
 
 ## Don't feel you aren't smart enough
 
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-
-## About Video Resources
-
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
-
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
 
 
 ## Interview Process & General Interview Prep
@@ -267,38 +227,7 @@ Here are some mistakes I made so you'll have a better experience.
 
 ### 1. You Won't Remember it All
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards, so I could review.
-
-Please, read so you won't make my mistakes:
-
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
-
-A course recommended to me (haven't taken it): [Learning how to Learn](https://www.coursera.org/learn/learning-how-to-learn)
-
 ### 2. Use Flashcards
-
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
-
-I made a mobile-first website, so I could review on my phone and tablet, wherever I am.
-
-Make your own for free:
-
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
-
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
-
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
-
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
-
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
 
 ### 3. Start doing coding interview questions while you're learning data structures and algorithms, 
 
@@ -320,13 +249,6 @@ Take a break from programming problems for a half hour and go through your flash
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music 
 without lyrics and you'll be able to focus pretty well.
 
-## What you won't see covered
-
-These are prevalent technologies but not part of this study plan:
-
-- SQL
-- Javascript
-- HTML, CSS, and other front-end technologies
 
 ## The Daily Plan
 
@@ -522,7 +444,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - add(key, value) - if key already exists, update value
         - exists(key)
         - get(key)
-        - remove(key)
+        - remove(key)y
+
+
 
 ## More Knowledge
 
